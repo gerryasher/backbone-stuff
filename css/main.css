@@ -1,0 +1,159 @@
+#body-wrapper {
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+.modal.in {
+    margin: 15px 0 0 15px;
+}
+.signin-form {
+    margin-top: 50px;
+}
+.container-fluid {
+    padding: 0;
+}
+#body-wrapper {
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+footer {
+    /*position: absolute;
+    bottom: 0px;*/
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    padding: 20px;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.box p {
+    width: 50%;
+}
+.box-programming {
+    background-image: url('img/programming.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px 40px 20px 30px;
+    margin: 0 0 24px 0;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+.box-mobile {
+    background-image: url('img/mobile.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px 40px 20px 30px;
+    margin: 0 0 24px 0;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+.box-database {
+    background-image: url('img/database.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px 40px 20px 30px;
+    margin: 0 0 24px 0;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+.box-tools {
+    background-image: url('img/tools.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 40px 40px 20px 30px;
+    margin: 0 0 24px 0;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.stripe {
+    padding: 50px 0;
+    width: 100%;
+    background: #FFFFFF;
+}
+.stripe.blue-horizontal {
+    background-color: #2dc1eb;
+    background-image: linear-gradient(to right,#3ddaea 0,#1ca8ec 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3ddaea', endColorstr='#ff1ca8ec', GradientType=1);
+    color: #fff;
+}
+.stripe.gray-horizontal {
+    background-color: #f6f6f6;
+    background-image: radial-gradient(circle,#f6f6f6,#ececec);
+    background-repeat: no-repeat;
+}
+
+
+.blog-title {
+    display: block;
+    color: cornflowerblue;
+    font-size: 18px;
+}
+.blog-date {
+    display: block;
+    color: #adadad;
+    font-size: 11px;
+}
+.blog-entry {
+    display: block;
+    color: #454545;
+    font-size: 14px;
+}
+.list-group-item a {
+    text-decoration: none;
+}
+.list-group-item a:hover {
+    background-color: aliceblue;
+}
+
+/* Portrait and Landscape */
+@media (min-device-width : 320px) and 
+       (max-device-width : 600px) {
+
+        .box p {
+            width: 100%;
+        }
+      
+        .box-programming {
+            background-size: 150%;
+            width: 100%;
+        }
+        .box-mobile {
+            background-size: 150%;
+            width: 100%;
+        }
+        .box-database {
+            background-size: 150%;
+            width: 100%;
+        }
+        .box-tools {
+            background-size: 150%;
+            width: 100%;
+        }
+
+}
