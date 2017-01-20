@@ -1,10 +1,10 @@
 
 var houses = new app.Houses([
-    new app.SingleHouse({ id: 101, bedrooms: 2, bathrooms: 1 }),
-    new app.SingleHouse({ id: 102, bedrooms: 3, bathrooms: 3 }),
-    new app.SingleHouse({ id: 103, bedrooms: 4, bathrooms: 2 }),
-    new app.SingleHouse({ id: 104, bedrooms: 3, bathrooms: 1 }),
-    new app.SingleHouse({ id: 105, bedrooms: 2, bathrooms: 2 }),
+    new app.SingleHouse({ id: 101, name: 'House 101', bedrooms: 2, bathrooms: 1 }),
+    new app.SingleHouse({ id: 102, name: 'House 102', bedrooms: 3, bathrooms: 3 }),
+    new app.SingleHouse({ id: 103, name: 'House 103', bedrooms: 4, bathrooms: 2 }),
+    new app.SingleHouse({ id: 104, name: 'House 104', bedrooms: 3, bathrooms: 1 }),
+    new app.SingleHouse({ id: 105, name: 'House 105', bedrooms: 2, bathrooms: 2 }),
 ]);
 
 var router = new app.Router();
