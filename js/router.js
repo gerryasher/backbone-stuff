@@ -15,8 +15,8 @@ app.Router = Backbone.Router.extend({
     },
     houses: function() {
         $('#app').html('<h2>House List</h2>');
-        var housesView = new app.MultiHousesView({ el: "#app", model: houses });
-        housesView.render();
+        var housesView = new app.MultiHousesView({ collection: houses });
+        $('#app').append(housesView.render().el);
     },
     yada: function() {
         $('#app').html('<h1>Yada Page</h1>');
